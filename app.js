@@ -1,8 +1,16 @@
 
 let account = document.querySelector('.init')
 let mp = document.querySelector('.mp')
-
+let title= document.querySelector('.title')
 let win= undefined;
+let cajatexto= document.querySelector('.cajaTexto')
+
+
+// D3trip@&
+window.addEventListener('load',()=>{
+	win = window.innerWidth;
+	console.log(win)
+})
 window.addEventListener('resize',()=>{
 	win = window.innerWidth;
 	if (win < 420) {
@@ -201,7 +209,7 @@ if (activeregister) {
 		let input3 = document.createElement('input');
 		input3.classList.add('rg', 'inv');
 		input3.type = 'submit';
-		input3.value = 'Registrarse';
+		input3.value = 'Iniciar Sesion';
 
 		formLog.appendChild(input1);
 		formLog.appendChild(input2);
