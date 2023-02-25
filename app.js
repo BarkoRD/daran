@@ -14,7 +14,7 @@ window.addEventListener('load',()=>{
 	mp.classList.replace('nav_texto','mainpage')
 
 }else if (win > 420) {
-	mp.innerHTML = 'Iniciar Sesion'
+	mp.innerHTML = 'Pagina Principal'
 	mp.classList.replace('mainpage','nav_texto')
 }
 })
@@ -25,7 +25,7 @@ window.addEventListener('resize',()=>{
 	account.classList.replace('nav_texto','account')
 
 }else if (win > 420) {
-	account.innerHTML = 'Iniciar Sesion'
+	account.innerHTML = 'Pagina Principal'
 	account.classList.replace('account','nav_texto')
 }
 })
@@ -37,7 +37,7 @@ window.addEventListener('resize',()=>{
 	mp.classList.replace('nav_texto','mainpage')
 
 }else if (win > 420) {
-	mp.innerHTML = 'Iniciar Sesion'
+	mp.innerHTML = 'Pagina Principal'
 	mp.classList.replace('mainpage','nav_texto')
 }
 })
@@ -101,7 +101,6 @@ buttonr.addEventListener('click',()=>{
   }, 525);
 
 	}else if (activeregister){
-		alert('Por Favor Registrese')
 		activelogin=false;
 	}else{
 		activeregister=true;
@@ -193,7 +192,6 @@ if (activeregister) {
 
 
 	}else if (activelogin){
-		alert('Por Favor Inicie Sesion')
 		activeregister=false;
 	}else{
 		activelogin=true;

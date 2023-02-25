@@ -232,7 +232,6 @@ section{
 }
 @media(max-width: 1412px){
 	.nav{
-		justify-content: space-around;
 		align-items: center;
 	}
 	.navflex{
