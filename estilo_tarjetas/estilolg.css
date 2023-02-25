@@ -225,8 +225,12 @@ section{
 	border: 1px solid #fff;
 }
 
-
-@media(max-width: 1245px){
+@media(min-width: 1920px){
+	.cajalogin{
+		margin-left: 500px;
+	}
+}
+@media(max-width: 1412px){
 	.nav{
 		justify-content: space-around;
 		align-items: center;
@@ -240,13 +244,9 @@ section{
 	.cajaTexto{
 	width: 350px;
 	height: 400px;
-	background-color: black;
 	margin-left: 60px;
 	margin-top: 60px;
-	display: inline-block;
-	border-radius: 25px;
-	background-color: rgba(255, 255, 255, 65%);
-	float: left;
+
 } 
 	.title{
 	font-size: 45px;
@@ -329,9 +329,80 @@ section{
 }
 
 }
+@media(max-width: 1040px){
+	.cajaTexto{
+		width: 300px;
 
-@media(max-width: 700px){
+	}
+	.cajalogin{
+		margin-left: 65px;
+		width: 350px;
+	}
+	.title{
+	font-size: 45px;
+	margin: 20px;
+	margin-left: 10%;
+	margin-bottom: 0px;
+	color: #455A64;
 
+	}
+	.text2{
+	width: auto;
+	font-size: 25px;
+	margin-left: 10px;
+	margin-top: 30px;
+	text-align: left;
+}
+
+	.text3{
+		visibility: hidden;
+		position: absolute;
+	}
+
+	.button{
+		width: 48%;
+		height: 50px;
+		font-size: 20px;
+		color: #455A64;
+	}
+
+	.input{
+		margin: 15px;
+		width: 90%;
+		background: transparent;
+		color: #455A64;
+		font-size: 55px;
+	 	
+	}
+	.input::placeholder{
+		font-size: 15px;
+	}
+
+	.rg{
+		margin-left: 110px;
+		margin-top: 30px;
+		font-size: 15px;
+	}
+
+}
+@media(max-width: 779px){
+	.text{
+		width: 0px;
+	}
+	.cajaTexto{
+		visibility: hidden;
+		position: absolute;
+		width: 0px;
+	}
+	.cajalogin{
+		visibility: visible;
+		position: static;
+		margin: 30px;
+		margin-left: 17%;
+		margin-top: 80px;
+		width: 380px;
+		height: 60px;
+	}
 	.navflex{
 		display: flex;
 		justify-content: space-around;
@@ -340,18 +411,70 @@ section{
 	.nav_texto{
 		font-size: 25px;
 	}
+	.button{
+		margin-top: 6px;
+		width: 48%;
+		height: 30px;
+		font-size: 17px;
+	}
+	.hr{
+		margin-top: 3px;
+	}
+	.buttonlogin{
+		height: 380px;
+	}
+	.buttonregister{
+		height: 520px;
+	}
+	.input{
+		margin-top: 0px;
+	}
+	.rg{
+		margin-left: 130px;
+	}
 
 }
 
 @media(max-width: 420px){
-
-	.navflex{
-		display: flex;
-		justify-content: space-around;
-
+	.text{
+	width: 0px;
+	height: 00px;
+	font-size: 0px;
+	margin-left: 0px;
+	text-align: left;
+}
+	.cajaTexto{
+		width: 0px;
 	}
-	.nav_texto{
-		font-size: 20px;
+	.cajalogin{
+		margin: 30px;
+		margin-left: 17%;
+		width: 250px;
+		height: 55px;
 	}
+	.button{
+		margin-top: 2px;
+		width: 48%;
+		height: 30px;
+		font-size: 15px;
+	}
+	.hr{
+		margin-top: 5px;
+	}
+	.buttonlogin{
+		height: 380px;
+	}
+	.buttonregister{
+		height: 520px;
+	}
+	.input{
+		margin-top: 0px;
+	}
+	.rg{
+		margin-left: 66px;
+	}
+
+}
+
 
 }

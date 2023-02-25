@@ -9,7 +9,14 @@ let cajatexto= document.querySelector('.cajaTexto')
 // D3trip@&
 window.addEventListener('load',()=>{
 	win = window.innerWidth;
-	console.log(win)
+	if (win < 420) {
+	mp.innerHTML = ''
+	mp.classList.replace('nav_texto','mainpage')
+
+}else if (win > 420) {
+	mp.innerHTML = 'Iniciar Sesion'
+	mp.classList.replace('mainpage','nav_texto')
+}
 })
 window.addEventListener('resize',()=>{
 	win = window.innerWidth;
