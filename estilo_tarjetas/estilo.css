@@ -103,7 +103,7 @@ hr{
 .subtitulo{
 	position: relative;
 	bottom: 20px;
-	margin-left: 750px;
+	margin-left: 850px;
 	font-family: 'Playfair Display';
 	font-style: normal;
 	font-weight: 550;
@@ -119,6 +119,19 @@ hr{
 	background-color: #D5D5D5;
 }
 
+@media(min-width: 1920px){
+	.subtitulo{
+		margin-left: 1200px;
+		font-size: 25px;
+	}
+}
+@media(max-width: 1920px){
+	.subtitulo{
+		margin-left: 50%;
+		font-size: 25px;
+	}
+}
+
 @media(max-width: 1100px){
 	.nav{
 		justify-content: space-around;
@@ -130,13 +143,13 @@ hr{
 
 	}
 	.titulo{
-		margin-left: 15%;
+		margin-left: 10%;
 		margin-top: 25px;
 		font-size: 100px;
 
 	}
 	.subtitulo{
-		margin-left: 15%;
+		margin-left: 30%;
 	}
 	
 
@@ -159,7 +172,7 @@ hr{
 		justify-content: space-around;
 
 	}
-	.nav_a{
+	.nav_texto{
 		font-size: 25px;
 	}
 
@@ -170,20 +183,22 @@ hr{
 		margin-left: 15px;
 		margin-top: 25px;
 		margin-bottom: 10px;
-		font-size: 65px;
+		font-size: 55px;
 
 }
 	.subtitulo{
 		margin-left: 15px;
 		font-size: 15px;
+		font-weight: 700;
 	}
 	.navflex{
 		display: flex;
 		justify-content: space-around;
 
 	}
-	.nav_a{
-		font-size: 20px;
+	.nav_texto{
+		font-size: 15px;
+		font-weight: 700;
 	}
 
 }
