@@ -36,13 +36,15 @@ section{
 	text-decoration: none;
 	border: 2px solid transparent;
 	padding: 5px;
+	transition: opacity .45s ease-in-out, background-color .45s ease-in-out;
 
 }
 
 .nav_texto:hover{
+	background-color: black;
 	opacity: 0.8;
-	border: 2px solid #fff;
-	border-radius: 5px;
+	border: none;
+	color: #fff;
 	
 }
 
